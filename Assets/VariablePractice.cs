@@ -56,5 +56,9 @@ class VariablePractice : MonoBehaviour
         float fffff = 3 + 4 * 2;
 
 
+        var xxx = 4;
+        var mmm = 4.45f;
+
+
     }
 }
