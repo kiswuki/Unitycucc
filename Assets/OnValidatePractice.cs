@@ -19,4 +19,6 @@ class OnValidatePractice : MonoBehaviour
 
 
     }
+
+    //hennnlo 2022.09.18
 }
