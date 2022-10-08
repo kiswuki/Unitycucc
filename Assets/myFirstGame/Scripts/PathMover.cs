@@ -26,6 +26,11 @@ class PathMover : MonoBehaviour
             target,
             speed * Time.deltaTime
             );
+
+        if (transform.position == target)
+        {
+            toA = !toA;
+        }
     }
 
     private void OnDrawGizmos()
