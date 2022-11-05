@@ -6,8 +6,10 @@ class PlayerMover : MonoBehaviour
     [SerializeField] float speed;
     [SerializeField] float speedMultiplier;
     [SerializeField] float angularSpeed;
+    [SerializeField] Animator movementAnimator;
 
-       void Update()
+
+    void Update()
     {
         // Debug.Log(name);  kiírja a Jani nevét FPS szám szerint folyamatosan
         //lejjebb Janit elmozdítom x értékkel minden updateben
@@ -64,6 +66,9 @@ class PlayerMover : MonoBehaviour
 
 
         transform.position += velocity;
+
+        bool isRunning = velocity != Vector3.zero;
+        movementAnimator.SetBool("isRunning", isRunning);  //FUTÁS animatiönnel
 
         //forgatás
         var rot = transform.rotation;
