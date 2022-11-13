@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/myFirstGame/MyFirstGame.unity
+    path: Assets/school projects/myFirstGame/MyFirstGame.unity
     guid: c61aa8d3d29e4674fbe952a1f194e4c3
   m_configObjects: {}
